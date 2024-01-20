@@ -5,16 +5,18 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <main class="my-0 mx-auto min-h-full max-w-[360px]">
     <div
-      class="my-0 mx-auto min-h-screen max-w-480 overflow-x-hidden bg-green-100 pb-[66px]"
+      class="my-0 mx-auto min-h-screen max-w-480 overflow-x-hidden bg-background pb-[66px]"
     >
       <RouterView />
     </div>
 
     <nav
-      class="fixed bottom-0 z-[2] m-0 flex justify-between items-center w-full max-w-[360px] bg-sky-50 h-[94px] px-3 py-2"
+      class="fixed bottom-0 z-[2] m-0 flex justify-between items-center w-full max-w-[360px] bg-blue50 h-[94px] px-3 py-2"
     >
-      <RouterLink to="/" class="w-[82px] h-[52px] grid place-content-center">
-        <span>icon</span>
+      <RouterLink to="/" class="w-[82px] h-[52px] flex flex-col items-center">
+        <span>
+          <img src="./assets/icons/nav-icon-home.svg">
+        </span>
         Home
       </RouterLink>
       <RouterLink
