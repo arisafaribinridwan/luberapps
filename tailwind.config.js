@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./src/*.{vue,js,ts,jsx,tsx}",
+    "./formkit.theme.mjs",
   ],
   theme: {
     extend: {
@@ -21,6 +22,7 @@ export default {
         blue50: "#E9F1FB",
         blue100: "#BAD5F2",
         blue800: "#114175",
+        gray800: "#6D7277",
       },
       fontFamily: {
         poppins: "'Poppins'",

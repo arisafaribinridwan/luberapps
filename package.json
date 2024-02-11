@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/addons": "^1.5.5",
+    "@formkit/themes": "^1.5.5",
     "@formkit/vue": "^1.5.3",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
