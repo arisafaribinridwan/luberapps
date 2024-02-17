@@ -22,7 +22,7 @@ function submitHandler(data) {
   // console.log(userAccount.username);
   if (data.username == userAccount.username) {
     console.log("user ada");
-    router.push("/home");
+    router.push("/dashboard/home");
     console.log(data);
   } else {
     console.log("user tidak ditemukan");
@@ -43,55 +43,24 @@ function submitHandler(data) {
       </p>
     </div>
     <div class="">
-      <FormKit
-        type="form"
-        id="login-form"
-        ref="formData"
-        :actions="false"
-        #default="{ value }"
-        @submit="submitHandler"
-      >
-        <FormKit
-          type="text"
-          label="User Name"
-          id="username"
-          name="username"
-          validation="required"
-          :classes="{
-            label: 'rounded-sm',
-            input: 'px-4 py-2',
-          }"
-        />
-        <FormKit
-          type="password"
-          label="Password"
-          id="password"
-          name="password"
-          validation="required"
-          :classes="{
-            label: 'rounded-sm',
-            input: 'px-4 py-2',
-          }"
-        />
+      <FormKit type="form" id="login-form" ref="formData" :actions="false" #default="{ value }" @submit="submitHandler">
+        <FormKit type="text" label="User Name" id="username" name="username" validation="required" :classes="{
+          label: 'rounded-sm',
+          input: 'px-4 py-2',
+        }" />
+        <FormKit type="password" label="Password" id="password" name="password" validation="required" :classes="{
+          label: 'rounded-sm',
+          input: 'px-4 py-2',
+        }" />
 
         <a href="#" class="text-sm text-primary">Forgot password ?</a>
 
-        <FormKit
-          type="submit"
-          label="Login"
-          id="loginButton"
-          name="loginButton"
-          inputClass="w-full mt-[50px] bg-primary text-white justify-center"
-          wrapperClass="text-center"
-        />
+        <FormKit type="submit" label="Login" id="loginButton" name="loginButton"
+          inputClass="w-full mt-[50px] bg-primary text-white justify-center" wrapperClass="text-center" />
       </FormKit>
     </div>
     <div class="mt-auto justify-center flex">
-      <img
-        class=""
-        src="../assets/icons/logo-luber.svg"
-        alt="luber-logo-small"
-      />
+      <img class="" src="../assets/icons/logo-luber.svg" alt="luber-logo-small" />
     </div>
   </main>
 </template>
