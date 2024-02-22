@@ -12,9 +12,11 @@
     "@formkit/addons": "^1.5.5",
     "@formkit/themes": "^1.5.5",
     "@formkit/vue": "^1.5.3",
+    "chart.js": "^4.4.1",
     "pinia": "^2.1.7",
     "primevue": "^3.48.1",
     "vue": "^3.3.11",
+    "vue-chartjs": "^5.3.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
