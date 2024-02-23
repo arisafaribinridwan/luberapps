@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="flex gap-4 items-center bg-white shadow-lg px-4 py-2 rounded">
+    <div class="flex gap-4 items-center bg-white shadow-lg p-4 rounded">
         <div>
             <img src="../assets/icons/home-userprofile.svg" alt="member-profile">
         </div>

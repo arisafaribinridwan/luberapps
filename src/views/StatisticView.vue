@@ -26,6 +26,7 @@ let membersProgress = reactive([
 
 <template>
     <main class="mb-48">
+        <!-- Header -->
         <header class="px-5 pt-10 pb-4 bg-blue50 rounded-b-2xl mb-4">
             <h1 class="font-bold text-lg mb-6 text-dark">Statistic</h1>
             <p class="font-semibold text-primary mb-4">Setoran Masuk <span class="font-medium text-sm text-gray-400">(6
