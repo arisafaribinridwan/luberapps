@@ -60,6 +60,8 @@ let membersProgress = reactive([
                     :percentage="progress.percentage" />
             </div>
         </section>
+
+
     </main>
 </template>
 

@@ -48,6 +48,11 @@ const router = createRouter({
           component: () => import("../views/PersonalView.vue"),
         },
         {
+          path: "debt",
+          name: "debt",
+          component: () => import("../views/DebtView.vue"),
+        },
+        {
           path: "password",
           name: "password",
           component: () => import("../views/PasswordView.vue"),

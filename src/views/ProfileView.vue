@@ -16,6 +16,7 @@ import password from '@/presets/luber/password';
     </header>
     <div class="p-5 flex flex-col gap-4">
         <ProfileButton to="/dashboard/personal" label="Data Pribadi" icon="mynaui:user-square" />
+        <ProfileButton to="/dashboard/debt" label="Data Hutang" icon="mynaui:dollar-square" />
         <ProfileButton to="/dashboard/password" label="Ubah Password" icon="solar:key-minimalistic-square-outline" />
         <ProfileButton to="/dashboard/logout" label="Log out" icon="solar:logout-2-outline" />
     </div>
