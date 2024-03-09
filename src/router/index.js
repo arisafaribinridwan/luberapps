@@ -23,32 +23,32 @@ const router = createRouter({
       component: DashboardView,
       children: [
         {
-          path: "/dashboard/home",
+          path: "home",
           name: "home",
           component: () => import("../views/HomeView.vue"),
         },
         {
-          path: "/dashboard/statistic",
+          path: "statistic",
           name: "statistic",
           component: () => import("../views/StatisticView.vue"),
         },
         {
-          path: "/dashboard/history",
+          path: "history",
           name: "history",
           component: () => import("../views/HistoryView.vue"),
         },
         {
-          path: "/dashboard/profile",
+          path: "profile",
           name: "profile",
           component: () => import("../views/ProfileView.vue"),
         },
         {
-          path: "/dashboard/personal",
+          path: "personal",
           name: "personal",
           component: () => import("../views/PersonalView.vue"),
         },
         {
-          path: "/dashboard/password",
+          path: "password",
           name: "password",
           component: () => import("../views/PasswordView.vue"),
         },
